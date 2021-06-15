@@ -1,0 +1,26 @@
+{
+  "name": "bottwitter",
+  "version": "1.0.0",
+  "description": "Test for a twitter bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucashas27/Twitter-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucashas27/Twitter-Bot/issues"
+  },
+  "homepage": "https://github.com/lucashas27/Twitter-Bot#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "twitter": "^1.7.1",
+    "yql": "^1.0.2"
+  }
+}
