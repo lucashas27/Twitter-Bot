@@ -9,7 +9,7 @@ var cliente = new Twitter({
 
 cliente.tweetar = function (tweet) {
     console.log("tweet =", tweet);
-    client.post('statuses/update', { status: tweet }, function (error, tweet, response) {
+    cliente.post('statuses/update', { status: tweet }, function (error, tweet, response) {
         if (error) console.log("error", error);
         else
             console.log("Tweet enviado.");
